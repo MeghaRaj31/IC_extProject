@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: IC_extProject
+  gitServerName: mraj_git_shared
+  gitUrl: https://github.com/MeghaRaj31
+  gitUsername: MeghaRaj31
+  gitBranch: main
