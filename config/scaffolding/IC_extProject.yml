@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/MeghaRaj31
   gitUsername: MeghaRaj31
   gitBranch: main
+services:
+- serviceName: project.ic_ext.integrations:new1
+  packages:
+  - name: IC_extProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1315
+- serviceName: project.ic_ext.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: IC_extProject
+    version: "1.0"
